@@ -1,0 +1,153 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+// 字體
+.font-baloo {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+// Header
+.logo a{
+	display:block;
+	width: 111px;
+	height: 40px;
+	background: url(https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg) no-repeat center / 100% 100%;
+	/* 圖片取代文字技巧 */
+	text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+// Button
+.btn-primary {
+    color: #636057;
+}
+.btn-primary:hover {
+    background-color: $danger;
+    border-color: $danger;
+    color: white;
+}
+.btn-outline-secondary:hover {
+    background-color: $primary;
+    border-color: $primary;
+}
+.btn-outline-secondary:hover i {
+    color: $danger;
+}
+
+// Image
+.object-fit-cover {
+    object-fit: cover;
+}
+
+// Modal 垂直置中
+.modal { 
+    top: 15%; 
+}
+
+// Letter Spacing
+.letter-spacing-0_7 {
+    letter-spacing: 0.7px;
+}
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+.letter-spacing-3 {
+    letter-spacing: 3px;
+}
+
+// Tab Nav
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    font-weight: bold;
+    border-bottom: 2px $primary solid;
+}
+
+.nav-link:hover, .nav-link:focus {
+    font-weight: bold;
+}
+
+.z-index-1000 {
+    z-index: 1000;
+}
+
+// Text
+.text-justify {
+    text-align: justify;
+}
+
+// shadow
+.shadow-bottom-button {
+    box-shadow: 0 -2px 4px 0 rgba(0,0,0,0.10);
+}
+
+// form Validation
+.was-validated .form-select:valid, .form-select.is-valid {
+    border: 1px solid #198754 !important;
+}
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border: 2px solid #FF785E !important;
+}
+
+// 右欄贊助方案--------------------------------
+// 右欄 Sticky
+.plan-sticky {
+    top: 88px;
+    height: calc(100vh - 88px);
+    overflow: auto;
+}
+.plan-sticky::-webkit-scrollbar { 
+    display: none; 
+}
+@media(max-width: 992px) {
+    .plan-sticky {
+        height: auto;
+    }
+}
+
+
+// Profile 卡片 - SNS Icon
+.w-30 {
+    width: 30px;
+    height: 30px;
+}
+
+// 贊助方案卡片
+.card-img, .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+// Tab-2_FAQ　常見問題
+.accordion-button:not(.collapsed) {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+}
+
+// Tab-3_Progress 目前進度
+.progress-img {
+    width: 135px;
+}
+@media(min-width: 992px) {
+    .progress-img {
+        width: 220px;
+    }
+}
+
+// Tab-4_Comment 留言
+.comment-name {
+    font-size: 1rem;
+}
+.comment-date {
+    font-size: 0.75rem;
+}
+@media(min-width: 992px) {
+    .comment-name {
+        font-size: 1.25rem;
+    }
+    .comment-date {
+        font-size: 0.875rem;
+    }
+}
+
