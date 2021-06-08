@@ -1,0 +1,61 @@
+// 右欄贊助方案--------------------------------
+// 右欄 Sticky
+.plan-sticky {
+    top: 88px;
+    height: calc(100vh - 88px);
+    overflow: auto;
+}
+.plan-sticky::-webkit-scrollbar { 
+    display: none; 
+}
+@media(max-width: 992px) {
+    .plan-sticky {
+        height: auto;
+    }
+}
+
+// Profile 卡片 - SNS Icon
+.w-30 {
+    width: 30px;
+    height: 30px;
+}
+
+// 贊助方案卡片
+.card-img, .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+// Tab-2_FAQ　常見問題
+.accordion-button:not(.collapsed) {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+}
+
+// Tab-3_Progress 目前進度
+.progress-img {
+    width: 135px;
+}
+@media(min-width: 992px) {
+    .progress-img {
+        width: 220px;
+    }
+}
+
+// Tab-4_Comment 留言
+.comment-name {
+    font-size: 1rem;
+}
+.comment-date {
+    font-size: 0.75rem;
+}
+@media(min-width: 992px) {
+    .comment-name {
+        font-size: 1.25rem;
+    }
+    .comment-date {
+        font-size: 0.875rem;
+    }
+}
+

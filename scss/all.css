@@ -14401,17 +14401,6 @@ body {
   font-family: 'Baloo Tamma 2', cursive;
 }
 
-.logo a {
-  display: block;
-  width: 111px;
-  height: 40px;
-  background: url(https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg) no-repeat center/100% 100%;
-  /* 圖片取代文字技巧 */
-  text-indent: 101%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .btn-primary {
   color: #636057;
 }
@@ -14452,16 +14441,6 @@ body {
   letter-spacing: 3px;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  font-weight: bold;
-  border-bottom: 2px #FFDF65 solid;
-}
-
-.nav-link:hover, .nav-link:focus {
-  font-weight: bold;
-}
-
 .z-index-1000 {
   z-index: 1000;
 }
@@ -14481,6 +14460,27 @@ body {
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
   border: 2px solid #FF785E !important;
+}
+
+.logo a {
+  display: block;
+  width: 111px;
+  height: 40px;
+  background: url(https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg) no-repeat center/100% 100%;
+  /* 圖片取代文字技巧 */
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  font-weight: bold;
+  border-bottom: 2px #FFDF65 solid;
+}
+
+.nav-link:hover, .nav-link:focus {
+  font-weight: bold;
 }
 
 .plan-sticky {

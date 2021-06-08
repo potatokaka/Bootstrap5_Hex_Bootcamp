@@ -1,0 +1,21 @@
+// Header
+.logo a{
+	display:block;
+	width: 111px;
+	height: 40px;
+	background: url(https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg) no-repeat center / 100% 100%;
+	/* 圖片取代文字技巧 */
+	text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+// Tab Nav
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    font-weight: bold;
+    border-bottom: 2px $primary solid;
+}
+
+.nav-link:hover, .nav-link:focus {
+    font-weight: bold;
+}
